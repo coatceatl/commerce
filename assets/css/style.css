@@ -367,7 +367,7 @@ main {
 .title-name a {
   font-size: 14px;
     font-weight: bold;
-    line-height: 26px;
+    line-height: 20px;
     color: rgb(0, 0, 0);
 }
 .title-span {
@@ -577,6 +577,8 @@ main {
     margin-right: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px; 
+    margin-left: 7px;
+    margin-bottom: 5px;
 }
 .title-img-lg img {
   width: 100%;
@@ -590,6 +592,27 @@ main {
 .posts-footer {
      background-color: rgb(247, 249, 250); 
         border-radius: 0 0 15px 15px; 
+}
+.posts-list {
+  display: flex;
+    overflow-x: auto;
+    padding: 20px 16px 20px 10px;
+    width: 100%;
+    max-width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-item .q-body,
+.posts-footer .left .avatars {
+  display: none;
+}
+.post-item .q-title {
+  flex-direction: column;
+}
+.post-item {
+ min-width: 220px;
+    max-width: 220px; 
+    margin-right: 15px;
 }
 
 
