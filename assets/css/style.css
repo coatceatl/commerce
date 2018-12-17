@@ -34,6 +34,9 @@ i.la {
 .blue1 {
   background-color: #92a6fc;
 }
+.has-shadow {
+  box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+}
 
 /* header */
 
@@ -287,6 +290,70 @@ main {
   border: 1px solid #e6e6e6;
 }
 
+
+/* footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 -10px 50px 0 rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #f5f6fb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer-link {
+  position: relative;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #98a8b4;
+}
+.plus {
+  position: absolute;
+  top: -53px;
+  width: 45px;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #39c4eb 0%, #0a9ace 100%);
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link.active {
+   color: #39c4eb;
+}
+.notif {
+  position: absolute;
+  right: -17px;
+  top: -13px;
+  width: 20px;
+  height: 20px;
+  background-color: #ec5959;
+  font-size: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  z-index: 100;
+}
+.notif-footer {
+  right: -5px;
+  top: -4px;
+}
+
+
 /* media */
 
 @media only screen and (min-width: 48em) {
@@ -294,6 +361,7 @@ main {
   .menu-list,
   .services,
   .services-tabs,
+  .footer-content,
   {
     width: 46em;
     margin-left: auto;
