@@ -661,6 +661,21 @@ main {
   font-size: large;
   margin-right: 5px;
 }
+.event-buttons {
+  display: flex;
+}
+.btn-event {
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+.btn-red {
+  background-color: #cb544a;
+}
+.btn-green {
+  background-color: #73e6e6;
+}
 
 
 
