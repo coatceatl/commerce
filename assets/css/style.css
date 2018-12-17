@@ -314,7 +314,7 @@ main {
   margin: 20px auto;
 
 }
-.questions-list {
+.q-list {
   display: flex;
   flex-direction: column;
  /* padding: 20px 16px 20px 10px; */
@@ -367,10 +367,8 @@ main {
 .title-name a {
   font-size: 14px;
     font-weight: bold;
-    line-height: 20px;
-    letter-spacing: normal;
+    line-height: 26px;
     color: rgb(0, 0, 0);
-    direction: ltr;
 }
 .title-span {
   font-size: 13px;
@@ -392,6 +390,7 @@ main {
     flex: 1 1 0%;
     padding: 0px 15px;
     margin: 10px 0;
+   text-align: justify; 
 }
 .body-text__heading {
   margin: 10px 0;
@@ -558,9 +557,51 @@ main {
 }
 
 .avatars {
-  width: 120px;
-  background-color: #fff;
+  width: 100px;
+ background-color: rgb(247, 249, 250); 
 }
+.avatars .title-img {
+  border-radius: 50%;
+}
+
+
+/* list */
+.title-img-lg {
+ display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px; 
+}
+.title-img-lg img {
+  width: 100%;
+  height: 100%;
+}
+.list-red {
+   font-size: 14px;
+    line-height: calc(100% + 10px); 
+   color: rgb(246, 16, 85); 
+}
+.posts-footer {
+     background-color: rgb(247, 249, 250); 
+        border-radius: 0 0 15px 15px; 
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .footer-content {
   display: flex;
