@@ -2,6 +2,8 @@ body {
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  background-color: #fff;
+  color: #000;
 }
 .container {
   display: flex;
@@ -210,7 +212,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-.services-list:after {
+/*.services-list:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -219,7 +221,7 @@ main {
   z-index: 1;
   border-bottom: 1px solid rgb(230, 230, 230); 
   margin-left: -30px;
-}
+}*/
 .services-link {
   display: flex;
   flex-direction: column;
@@ -252,7 +254,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-.services-tabs:after {
+/*.services-tabs:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -261,7 +263,7 @@ main {
   z-index: 1;
   border-bottom: 1px solid rgb(230, 230, 230); 
   margin-left: -30px;
-}
+}*/
 .tabs-link {
   color: #999;
   margin-right: 10px;
@@ -306,7 +308,259 @@ main {
   border: 1px solid #e6e6e6;
 }
 
+/* questions */
+.questions {
+  padding: 0 20px;
+  margin: 20px auto;
 
+}
+.questions-list {
+  display: flex;
+  flex-direction: column;
+ /* padding: 20px 16px 20px 10px; */
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
+  border-radius: 15px;
+}
+.q-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(153, 153, 153);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: default;
+  padding: 15px;
+}
+.title-avatar,
+.avatars {
+  width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 128, 178);
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.title-img {
+  width: 35px;
+  height: 35px;
+}
+.title-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+}
+.title-name a {
+  font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: rgb(0, 0, 0);
+    direction: ltr;
+}
+.title-span {
+  font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: rgb(153, 153, 153);
+    direction: ltr;
+}
+.q-body {
+  display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    border-radius: 0px;
+}
+.body-text {
+  display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    padding: 0px 15px;
+    margin: 10px 0;
+}
+.body-text__heading {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.question-btn {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.question-btn a {
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background-color: rgb(73, 204, 204);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 11px;
+  line-height: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 5px;
+  padding: 0px 8px;
+  transition: background-color 0.25s ease 0s;
+}
+.text {
+  margin-bottom: 12px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(77, 77, 77);
+}
+.body-button {
+  height: 60px;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(247, 249, 250);
+    padding: 0px 15px;
+}
+.btn-answer {
+  height: 40px;
+  box-shadow: none;
+  min-width: 120px;
+  padding: 0px 12px;
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+ /*   height: 50px; */
+    font-size: 15px;
+   /* min-width: 350px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
+    cursor: pointer;
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    transition: background-color 0.2s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+}
+.q-footer {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 13px;
+    padding: 0px 15px;
+    border-radius: 15px;
+}
+.left {
+  display: flex;
+}
+.q-responsed,
+.q-share {
+  display: flex;
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 15px;
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    line-height: 13px;
+    transition: color 0.25s ease 0s;
+}
+.q-responsed span,
+.q-share span {
+ font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: normal;
+    color: rgb(77, 77, 77);
+    margin-left: 4px;
+}
+.btn-answer span {
+  margin-left: 4px;
+}
+
+/* share */
+.body-img img {
+    height: 200px;
+    width: 100%;
+  }
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+
+.share-1 {
+ display: inline-flex;
+    flex-direction: column;
+    padding: 0px 15px; 
+}
+.1 span {
+  text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+.row-12 {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+   justify-content: space-between; 
+}
+
+.red {
+  font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: rgb(246, 16, 85);
+    direction: ltr; 
+}
+
+.share-avatars {
+  display: flex;
+    justify-content: space-between;
+}
+.ava-text {
+  font-size: 13px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.avatars {
+  width: 120px;
+  background-color: #fff;
+}
 /* footer */
 .footer-content {
   display: flex;
