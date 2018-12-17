@@ -24,6 +24,7 @@ body {
 i.la {
     font-size: xx-large;
 }
+
 .blue {
   background-color: #65cafc;
 }
@@ -615,6 +616,29 @@ main {
     margin-right: 15px;
 }
 
+/* video */
+.q-video {
+  max-height: 195px;
+}
+.video-cont {
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    max-height: 195px;
+}
+.video-content {
+  height: 100%;
+  width: 100%;
+ max-height: 195px; 
+}
+.thanks {
+  width: auto;
+    height: 20px;
+    margin-right: 8px;
+}
 
 
 
