@@ -56,6 +56,10 @@ i.la {
   left: 0;
   right: 0;
   z-index: 15;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-logo {
   margin-right: 0;
@@ -119,6 +123,10 @@ input[type="search"]::-moz-placeholder {
   overflow-x: auto;
   overflow-y: hidden;
   margin-top: 10px;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu-list:after {
   content: "";
@@ -197,6 +205,10 @@ main {
   display: flex;
   overflow-x: auto;
   padding: 20px 16px 20px 10px;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .services-list:after {
   content: "";
@@ -235,6 +247,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .services-tabs:after {
   content: "";
@@ -296,13 +312,16 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   height: 55px;
   background-color: #fff;
   z-index: 1000;
   box-shadow: 0 -10px 50px 0 rgba(0,0,0,0.05);
   padding: 20px;
   margin-top: 20px;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer {
   background-color: #f5f6fb;
@@ -354,19 +373,5 @@ main {
 }
 
 
-/* media */
-
-@media only screen and (min-width: 48em) {
-  .header-top,
-  .menu-list,
-  .services,
-  .services-tabs,
-  .footer-content,
-  {
-    width: 46em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 
