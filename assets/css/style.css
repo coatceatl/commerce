@@ -730,6 +730,8 @@ main {
    border-radius: 15px;
 
 }
+.profile-marg {
+margin-top: 20px;}
 .profile-card {
   padding: 10px 5px;
   margin-left: auto;
@@ -762,7 +764,7 @@ main {
     border-image: initial;
     margin: 0 auto;
     top: -25px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .profile-photo img {
   width: 100%;
