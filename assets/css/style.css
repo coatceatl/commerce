@@ -455,9 +455,7 @@ main {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
- /*   height: 50px; */
     font-size: 14px;
-   /* min-width: 350px;*/
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
     cursor: pointer;
     color: rgb(77, 77, 77);
@@ -467,14 +465,14 @@ main {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(230, 230, 230);
-    border-image: initial;
+    font-weight: 600;
 }
 .q-footer {
   display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    font-size: 13px;
+    font-size: 12px;
     padding: 0px 15px;
     border-radius: 15px;
 }
@@ -489,13 +487,13 @@ main {
     align-items: center;
     height: 15px;
     color: rgb(77, 77, 77);
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 12px;
+    line-height: 12px;
     transition: color 0.25s ease 0s;
 }
 .q-responsed span,
 .q-share span {
- font-size: 13px;
+ font-size: 12px;
     font-weight: normal;
     line-height: 15px;
     letter-spacing: normal;
@@ -503,7 +501,7 @@ main {
     margin-left: 4px;
 }
 .comments-text {
- font-size: 13px;
+ font-size: 12px;
     font-weight: normal;
     line-height: 15px;
     letter-spacing: normal;
@@ -862,7 +860,7 @@ main {
   justify-content: center;
 }*/
 .footer-link.active {
-   color: #39c4eb;
+   color: #40c9a2;
 }
 .notif {
   position: absolute;
