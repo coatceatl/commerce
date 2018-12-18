@@ -502,6 +502,15 @@ main {
     color: rgb(77, 77, 77);
     margin-left: 4px;
 }
+.comments-text {
+ font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: normal;
+    color: rgb(77, 77, 77);
+    margin-left: 4px;
+
+}
 .btn-answer span {
   margin-left: 4px;
 }
@@ -526,6 +535,12 @@ main {
     flex-direction: column;
     padding: 0px 15px; 
 }
+.lists-heading {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
 .1 span {
   text-align: left;
     font-size: 20px;
@@ -543,7 +558,7 @@ main {
 }
 
 .red {
-  font-size: 20px;
+  font-size: 16px;
     font-weight: bold;
     line-height: 24px;
     letter-spacing: normal;
@@ -554,6 +569,9 @@ main {
 .share-avatars {
   display: flex;
     justify-content: space-between;
+    padding: 10px;
+   background-color: rgb(247, 249, 250); 
+   align-items: center;
 }
 .ava-text {
   font-size: 13px;
@@ -562,8 +580,9 @@ main {
 }
 
 .avatars {
-  width: 100px;
- background-color: rgb(247, 249, 250); 
+  width: 100%;
+  max-width: 100px;
+  background-color: rgb(247, 249, 250); 
 }
 .avatars .title-img {
   border-radius: 50%;
@@ -601,7 +620,7 @@ main {
 .posts-list {
   display: flex;
     overflow-x: auto;
-    padding: 20px 16px 20px 10px;
+    padding: 20px 16px 20px 1px;
     width: 100%;
     max-width: 736px;
     margin-left: auto;
@@ -753,9 +772,18 @@ main {
 }
 .profile-bottom {
   display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 15px;
+}
+@media (max-width: 578px) {
+  .profile-bottom {
+      flex-direction: column;
+  }
+}
+.btn-profile {
+    margin: 10px;
+    height: 40px;
 }
 
 
