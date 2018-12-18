@@ -764,7 +764,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 55px;
+  height: 85px;
   background-color: #fff;
   z-index: 1000;
   box-shadow: 0 -10px 50px 0 rgba(0,0,0,0.05);
@@ -774,7 +774,17 @@ main {
   max-width: 736px;
   margin-left: auto;
   margin-right: auto;
+  border-top: 1px solid #808899;
 }
+/*
+.footer-content:before {
+  content: "";
+  width: 100%;
+  height: 20px;
+  border-top: solid green 15px;
+  border-radius: 0 35px 45px 0;
+  position: absolute;
+}*/
 .footer {
   background-color: #f5f6fb;
   position: fixed;
@@ -832,9 +842,13 @@ main {
   transform: rotate(135deg);
 }
 .plus-bg {
-  background: url(../img/avatar-1.jpg) center center/cover no-repeat;
+  background: url(../img/img6.jpg) center center/cover no-repeat;
   position: absolute;
   width: 45px;
   height: 50px;
   border-radius: 50%;
 }
+/*.footer-content {
+  border-radius: 50% 50% 0 0;
+  border: 1px solid red;
+}*/
