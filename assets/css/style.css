@@ -62,7 +62,7 @@ i.la {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 15;
+  z-index: 1000;
   width: 100%;
   max-width: 736px;
   margin-left: auto;
@@ -116,9 +116,9 @@ input[type="search"]::-moz-placeholder {
 .header-menu {
   /*padding: 10px 20px 1px 20px; */
   background-color: #fff;
-  position: fixed;
+  position: relative;
   top: 70px;
-  z-index: 1000;
+  z-index: 10;
   height: auto;
 }
 .menu-list {
@@ -200,7 +200,7 @@ input[type="search"]::-moz-placeholder {
 
 main {
   position: relative;
-  top: 200px;
+  top: 70px;
 }
 
 /* services */
