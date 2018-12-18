@@ -748,8 +748,8 @@ main {
 }
 .profile-photo {
         position: relative;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     transform: translate3d(0px, 0px, 0px);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
     box-sizing: border-box;
@@ -761,6 +761,8 @@ main {
     border-color: rgb(255, 255, 255);
     border-image: initial;
     margin: 0 auto;
+    top: -25px;
+    margin-top: 15px;
 }
 .profile-photo img {
   width: 100%;
@@ -780,7 +782,7 @@ main {
   border-bottom: 1px solid #e6e6e6;
 }
 .profile-link {
-  color: #2700ff;
+     color: #199fff;
 }
 .profile-bottom {
   display: flex;
