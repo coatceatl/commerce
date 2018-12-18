@@ -727,10 +727,11 @@ main {
     border-bottom: none;
     background: rgb(247, 249, 250);
    background: url(../img/bg1.png) center center/cover no-repeat; 
+   border-radius: 15px;
 
 }
 .profile-card {
-  padding: 10px 15px;
+  padding: 10px 5px;
   margin-left: auto;
   margin-right: auto;
        background: url(../img/bg1.png) center center/cover no-repeat; 
