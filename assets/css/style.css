@@ -690,6 +690,8 @@ main {
   padding: 20px;
   margin-right: 5px;
   color: #fff;
+  display: flex;
+    justify-content: space-evenly;
 }
 .btn-red {
   background-color: #cb544a;
