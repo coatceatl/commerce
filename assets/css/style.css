@@ -789,7 +789,7 @@ main {
     justify-content: center;
     color: #98a8b4;
 }
-.plus {
+/*.plus {
   position: absolute;
   top: -53px;
   width: 45px;
@@ -800,7 +800,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 .footer-link.active {
    color: #39c4eb;
 }
@@ -823,7 +823,18 @@ main {
   right: -5px;
   top: -4px;
 }
-
-
-
-
+.plus {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #40c9a2;
+  background-color: #40c9a2;
+  border-radius: 100% 0 100% 100%;
+  transform: rotate(135deg);
+}
+.plus-bg {
+  background: url(../img/avatar-1.jpg) center center/cover no-repeat;
+  position: absolute;
+  width: 45px;
+  height: 50px;
+  border-radius: 50%;
+}
