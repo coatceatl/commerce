@@ -689,7 +689,7 @@ main {
 }
 .btn-event {
   border-radius: 8px;
-  padding: 5px;
+  padding: 20px;
   margin-right: 5px;
   color: #fff;
 }
@@ -767,8 +767,13 @@ main {
 }
 .profile-title {
   font-size: 24px;
-  line-height: 27px;
+  line-height: 32px;
   font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.profile-link {
+  color: #2700ff;
 }
 .profile-bottom {
   display: flex;
