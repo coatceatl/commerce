@@ -738,7 +738,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
     background: rgb(255, 255, 255);
     border-radius: 15px;
-    padding: 60px 15px 15px;
+    padding-top: 60px;
 }
 .profile-photo {
         position: relative;
@@ -764,6 +764,7 @@ main {
 .profile-text {
   text-align: center;
   margin-top: 10px;
+  padding: 0 15px;
 }
 .profile-title {
   font-size: 18px;
@@ -779,20 +780,24 @@ main {
   display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px 0;
 }
 .profile-desc {
   margin: 10px auto;
   text-size: 14px;
 }
-@media (max-width: 578px) {
+/*@media (max-width: 375px) {
   .profile-bottom {
       flex-direction: column;
   }
-}
+} */
 .btn-profile {
     margin: 10px;
     height: 40px;
+}
+.btn-profile span {
+  font-size: 12px;
+  margin-left: 0;
 }
 
 
