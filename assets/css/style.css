@@ -1072,7 +1072,8 @@ margin-top: 20px;}
 }
 .notif-request {
   left: 200px;
-  top: 15px;
+  top: 14px;
+  z-index: 0 !important;
 }
 .request-list {
   display: flex;
