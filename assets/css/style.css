@@ -43,6 +43,9 @@ i.la {
 .m-r {
   margin-right: 10px;
 }
+.bold {
+  font-weight: 600;
+}
 
 /* header */
 
@@ -986,6 +989,15 @@ margin-top: 20px;}
 
 
 /* inner page1 */
+.inner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px 20px 10px;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .invite {
   padding: 15px;
   background-color: #2e3a40;
@@ -1149,4 +1161,76 @@ margin-top: 20px;}
   position: absolute;
   left: 40%;
   right: 40%;
+}
+
+/* discover */
+.discover {
+  padding: 15px 0;
+}
+.discover-body {
+  padding: 15px;
+  min-height: 260px;
+  width: 100%;
+  background: rgb(247, 249, 250);
+}
+.discover-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.discover-item {
+  width: 100%;
+  margin: 0px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.discover-link {
+  width: 100px;
+  height: 120px;
+  margin-right: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: color 0.4s ease 0s;
+}
+.discover-link img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.discover-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+}
+.discover-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 6px;
+}
+.discover-district {
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(246, 16, 85);
+  margin-bottom: 4px;
+}
+.discover-time {
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 8px;
+}
+.discover-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  border-top: 1px dotted rgba(153,153,153,.5);
 }
