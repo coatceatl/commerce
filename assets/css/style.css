@@ -1231,6 +1231,15 @@ margin-top: 20px;}
 .discover-bottom {
   display: flex;
   align-items: center;
-  margin-top: 8px;
+  justify-content: space-between;
   border-top: 1px dotted rgba(153,153,153,.5);
+  padding-top: 8px;
+}
+.discover-friend {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  line-height: 17px;
+}
+.add button {
+  font-size: 15px;
 }
