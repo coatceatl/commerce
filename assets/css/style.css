@@ -93,9 +93,11 @@ svg {
   left: 15px;
   top: 9px;
   bottom: 7px;
-  z-index: 100;
   color: #fff;
   stroke-width: 4px;
+}
+.header-svg {
+  z-index: 100;
 }
 input.search-input {
   width: 100%;
@@ -1093,4 +1095,44 @@ margin-top: 20px;}
   font-size: 13px;
   line-height: 17px;
 }
-
+.request-approving {
+  display: flex;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+.no,
+.yes {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 36px;
+  cursor: pointer;
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 255, 255);
+  padding: 0px 10px;
+  border-radius: 70px;
+  transition: background-color 0.2s ease 0s;
+  border: 1px solid rgb(230, 230, 230);
+  margin-right: 6px;
+  text-align: center;
+  flex: 1 1 0%;
+}
+.no svg {
+  display: inline-flex;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: rgb(248, 72, 93);
+  margin: 0px;
+}
+.yes svg {
+  display: inline-flex;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: rgb(64, 201, 162);
+  margin: 0px;
+}
