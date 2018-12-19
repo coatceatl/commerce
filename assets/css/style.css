@@ -80,6 +80,10 @@ i.la {
   width: 25%;
   overflow: hidden;
 }
+.search-inner {
+  width: 100%;
+}
+
 .search-form {
   width: 100%;
   position: relative;
@@ -100,6 +104,24 @@ input.search-input {
   border: none;
   background-color: #40c9a2;
 }
+input.search-input-inner {
+  width: 100%;
+  border-radius: 20px;
+  padding: 7px 15px 7px 60px;
+  border: none;
+  background-color: #fff;
+  color: #999;
+}
+svg.search-green {
+  color: #40c9a2;
+  position: absolute;
+  left: 15px;
+  top: 9px;
+  bottom: 7px;
+  z-index: 100;
+  stroke-width: 4px;
+}
+
 input[type="search"]::-webkit-input-placeholder {
   color: #fff;
 }
@@ -110,6 +132,7 @@ input[type="search"]::-moz-placeholder {
   width: 25%;
   text-align: end;
 }
+
 
 /* menu-header */
 .header-menu {
