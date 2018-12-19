@@ -944,9 +944,14 @@ margin-top: 20px;}
     width: 47px;
     height: 50px;
 }
+#pattern {
+  transform: rotate(180deg);
+}
 .ttt {
  transform: rotate(180deg);
     position: absolute;
     top: -17px; 
+    left: 0;
 }
+
 
