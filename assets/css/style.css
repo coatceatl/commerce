@@ -793,7 +793,8 @@ margin-top: 20px;}
 }
 .profile-desc {
   margin: 10px auto;
-  text-size: 14px;
+  font-size: 16px;
+ color: rgb(77, 77, 77); 
 }
 /*@media (max-width: 375px) {
   .profile-bottom {
