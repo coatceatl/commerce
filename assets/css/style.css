@@ -1429,6 +1429,7 @@ margin-top: 20px;}
   align-items: center;
   position: relative;
 }
+/*
 @media (max-width: 500px) {
   .post-header-cont {
     flex-direction: column;
@@ -1437,7 +1438,7 @@ margin-top: 20px;}
   .before:before {
     display: none;
   }
-}
+}*/
 .svg-list {
   position: absolute;
   width: 20px;
@@ -1455,6 +1456,10 @@ margin-top: 20px;}
   justify-content: flex-end;
   align-items: center;
   height: 18px;
+  font-size: 13px;
+}
+.title-span {
+  font-size: 12px;
 }
 .before:before {
   content: "·";
@@ -1497,4 +1502,7 @@ margin-top: 20px;}
 .post-item-footer {
   background-color: rgb(247, 249, 250);
   border-radius: 0 0 15px 15px;
+}
+.title-span {
+  margin-bottom: 10px;
 }
