@@ -1417,8 +1417,8 @@ margin-top: 20px;}
   flex-direction: column;
 }
 .post-header-title {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 22px;
   font-weight: bold;
   color: #000;
 }
@@ -1443,7 +1443,7 @@ margin-top: 20px;}
   position: absolute;
   width: 20px;
   color: red;
-  top: 2px;
+  top: 3px;
   left: 0px;
   height: 1em;
   vertical-align: -0.125em;
@@ -1452,14 +1452,14 @@ margin-top: 20px;}
 .list-red {
   display: flex;
   align-items: baseline;
-  width: 45px;
+  width: 35px;
   justify-content: flex-end;
   align-items: center;
   height: 18px;
   font-size: 13px;
 }
 .title-span {
-  font-size: 12px;
+  font-size: 10px;
 }
 .before:before {
   content: "·";
