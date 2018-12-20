@@ -1455,3 +1455,17 @@ margin-top: 20px;}
   content: "·";
   margin: 0px 4px;
 }
+.post-item-body {
+  word-break: break-word;
+  overflow: hidden;
+  max-height: 78px;
+  transition: max-height 0.25s ease 0s;
+  padding: 0 15px;
+  margin: 15px 0;
+  text-align: justify;
+  border-top: 1px dotted rgba(153,153,153,.5);
+}
+.post-item-footer {
+  background-color: rgb(247, 249, 250);
+  border-radius: 0 0 15px 15px;
+}
