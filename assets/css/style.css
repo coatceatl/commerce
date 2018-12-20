@@ -1464,16 +1464,25 @@ margin-top: 20px;}
   width: 0;
   height: 0;
   border: 60px solid transparent;
-  border-top: 60px solid red;
-  border-right: 60px solid red;
+  border-top: 60px solid rgb(233, 134, 252);
+  border-right: 60px solid rgb(233, 134, 252);
   position: absolute;
   right: 0;
   top: 0;
 }
 @media (max-width: 500px) {
   .title-triangle {
-    width: 70%;
+    width: 50%;
   }
+}
+.price {
+  color: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -40px;
+  right: -50px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .post-item-body {
   word-break: break-word;
