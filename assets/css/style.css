@@ -1290,6 +1290,10 @@ margin-top: 20px;}
   background: #fff;
 }*/
 
+
+
+
+
 /* category page */
 .category-page-header {
   height: 200px;
@@ -1350,7 +1354,7 @@ margin-top: 20px;}
   width: 100%;
 }
 .category-tabs-buttons {
-  padding: 20px 15px;
+  padding: 20px 17px;
 }
 .category-btn {
   display: inline-flex;
@@ -1387,6 +1391,7 @@ margin-top: 20px;}
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
   border-radius: 15px;
+  position: relative;
 }
 .post-item-header {
   display: flex;
@@ -1454,6 +1459,21 @@ margin-top: 20px;}
 .before:before {
   content: "·";
   margin: 0px 4px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border: 60px solid transparent;
+  border-top: 60px solid red;
+  border-right: 60px solid red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 500px) {
+  .title-triangle {
+    width: 70%;
+  }
 }
 .post-item-body {
   word-break: break-word;
