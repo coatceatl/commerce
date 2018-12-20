@@ -1429,16 +1429,20 @@ margin-top: 20px;}
   align-items: center;
   position: relative;
 }
-/*
 @media (max-width: 500px) {
-  .post-header-cont {
+  .post-item-header {
     flex-direction: column;
     align-items: baseline;
   }
-  .before:before {
-    display: none;
+  .post-header-content {
+    margin-top: 15px;
   }
-}*/
+  .post-header-title.title-triangle {
+    width: 100%;
+  }
+/*  .before:before {
+    display: none;*/
+}
 .svg-list {
   position: absolute;
   width: 20px;
@@ -1452,14 +1456,14 @@ margin-top: 20px;}
 .list-red {
   display: flex;
   align-items: baseline;
-  width: 35px;
+  width: 45px;
   justify-content: flex-end;
   align-items: center;
   height: 18px;
   font-size: 13px;
 }
 .title-span {
-  font-size: 10px;
+  font-size: 13px;
 }
 .before:before {
   content: "·";
