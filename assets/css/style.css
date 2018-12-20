@@ -1294,6 +1294,7 @@ margin-top: 20px;}
   height: 200px;
   color: #fff;
   padding: 26px;
+  position: relative;
 }
 .category-page-header i {
   font-weight: bold;
@@ -1301,6 +1302,20 @@ margin-top: 20px;}
 .category-header {
   text-align: center;
   margin-top: 10px;
+}
+.svg-category {
+  height: 50%;
+  position: absolute;
+  left: 39%;
+  top: 25%;
+  color: rgba(255,255,255,.3);
+}
+.svg-category2 {
+  height: 50%;
+  position: absolute;
+  left: 51%;
+  top: 25%;
+  color: rgba(255,255,255,.3);
 }
 .tabs {
   padding: 15px;
