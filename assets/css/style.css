@@ -1560,7 +1560,6 @@ main {
 .contact {
   display: flex;
   flex-direction: column;
-  padding: 0px 20px;
   width: 100%;
 }
 .contact-name {
@@ -1568,14 +1567,16 @@ main {
   color: #000;
   margin-bottom: 15px;
   text-align: left;
+  padding: 0px 20px;
 }
 .contact-phone {
   display: flex;
   flex-direction: column;
-  padding-bottom: 16px;
   border-bottom: 1px solid rgb(230, 230, 230);
   color: rgb(77, 77, 77);
   position: relative;
+  padding: 0px 20px;
+  padding-bottom: 20px;
 }
 .phone {
   position: absolute;
@@ -1583,8 +1584,41 @@ main {
   height: 16px;
   color: rgb(77, 77, 77);
   top: 3px;
-  left: 0;
+  left: 20px;
 }
 .contact-phone span {
   margin-left: 27px;
+}
+.article-body {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.article-body p {
+  padding: 0 20px;
+}
+.article-footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  justify-content: space-around;
+}
+.footer-span {
+  position: relative;
+}
+.footer-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  color: rgb(77, 77, 77);
+  top: 2px;
+  left: 0;
+}
+.footer-span span {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  margin-left: 22px;
 }
