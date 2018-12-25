@@ -1622,3 +1622,76 @@ main {
   font-size: 14px;
   margin-left: 22px;
 }
+.footer-column {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.footer-column:not(:last-child) {
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+/* chat */
+.chat-list {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.chat {
+  margin-top: 20px;
+  display: flex;
+}
+.chat-avatar {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 128, 178);
+  cursor: pointer;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.chat-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.chat-content {
+  display: flex;
+  flex-direction: column;
+}
+.chat-content-body {
+  margin-left: 15px;
+  background-color: rgb(242, 247, 250);
+  line-height: 24px;
+  padding: 11px 15px;
+  border-radius: 10px;
+}
+.chat-name {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.chat-content-icons {
+  display: flex;
+  flex-direction: row;
+  height: 18px;
+  padding-left: 15px;
+  margin-top: 3px;
+}
+.chat-icons-item {
+  padding-left: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.chat-icon {
+  position: absolute;
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 0;
+  color: #000;
+}
