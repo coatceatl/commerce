@@ -1626,6 +1626,22 @@ main {
   padding-left: 10%;
   padding-right: 10%;
 }
+@media (max-width: 768px ) {
+ .footer-column {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .footer-span span {
+    font-size: 11px;
+    margin-left: 8px;
+  }
+  .footer-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
 .footer-column:not(:last-child) {
   border-right: 1px solid rgb(230, 230, 230);
 }
@@ -1691,7 +1707,13 @@ main {
   display: inline-flex;
   width: 12px;
   height: 12px;
-  top: 2px;
+  top: 6px;
   left: 0;
   color: #000;
+}
+.chat-span {
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(77, 77, 77);
+  margin-left: 10px;
 }
