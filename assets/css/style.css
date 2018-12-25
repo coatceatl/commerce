@@ -1733,6 +1733,23 @@ main {
   margin-left: auto;
   margin-right: 0;
 }
+.chat-footer {
+  padding: 10px 0;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+}
+i.chat-footer-icon {
+  font-size: 22px !important;
+  color: rgb(77, 77, 77);
+}
+.btn-left {
+  margin-left: auto;
+}
+.p-b {
+  padding-bottom: 3px;
+}
 
 /* product */
 .product {
@@ -1760,4 +1777,32 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
+}
+
+.chat-buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  overflow-x: auto;
+}
+.btn-chat {
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    border-radius: 70px;
+    transition: background-color 0.2s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    padding: 0 15px;
+    margin-right: 15px;
 }
