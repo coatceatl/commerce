@@ -1608,6 +1608,8 @@ main {
 }
 .footer-span {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .footer-icon {
   position: absolute;
@@ -1633,13 +1635,19 @@ main {
   }
 }
 @media (max-width: 375px) {
+  .footer-column {
+    padding: 0;
+  }
+  .footer-span {
+    padding-right: 3px;
+    padding-left: 2px;
+  }
   .footer-span span {
     font-size: 11px;
-    margin-left: 8px;
   }
   .footer-icon {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
   }
 }
 .footer-column:not(:last-child) {
@@ -1701,6 +1709,7 @@ main {
   padding-left: 10px;
   cursor: pointer;
   position: relative;
+  margin-right: 15px;
 }
 .chat-icon {
   position: absolute;
