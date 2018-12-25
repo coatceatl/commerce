@@ -1746,3 +1746,11 @@ main {
   color: rgb(77, 77, 77);
   margin-left: 10px;
 }
+.chat-child {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.chat-like {
+  margin-left: auto;
+  margin-right: 0;
+}
