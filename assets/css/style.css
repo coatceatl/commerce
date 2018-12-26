@@ -1910,6 +1910,7 @@ i.chat-footer-icon {
   font-weight: 600;
   line-height: 20px;
   color: #4d4d4d;
+  margin-bottom: 20px;
 }
 .store-list {
   display: flex;
@@ -1932,6 +1933,7 @@ i.chat-footer-icon {
 .sort-item {
   position: relative;
 }
+.store-title i.icon-cat,
 .sort-item a i {
   color: #4d4d4d;
   font-size: 22px;
@@ -1947,4 +1949,7 @@ i.chat-footer-icon {
   height: 10px;
   color: rgb(246, 16, 85);
   left: 8px;
+}
+.store-item {
+  margin: 15px;
 }
