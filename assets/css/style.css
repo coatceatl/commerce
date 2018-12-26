@@ -1435,11 +1435,25 @@ main {
 
 
 /* chat */
+.article-page {
+  background-color: rgba(247, 249, 250,.3);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
 .article {
   width: 100%;
   box-shadow: rgb(230, 230, 230) 0px 5px 20px 0px;
   margin-bottom: 20px;
   border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.article-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
 }
 .article-top {
   font-size: 16px;
@@ -1628,6 +1642,7 @@ main {
 }
 .footer-span {
   margin-left: 22px;
+  margin-right: 5px;
 }
 .footer-column {
   width: 33.33%;
@@ -1734,10 +1749,11 @@ main {
   margin-right: 0;
 }
 .chat-footer {
-  padding: 10px 0;
+  padding: 10px;
   max-width: 736px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(77,77,77,.2);
 }
 .input-footer {
   display: flex;
@@ -1756,6 +1772,7 @@ i.chat-footer-icon {
 .form-chat {
   border: none;
   color: rgb(77, 77, 77);
+  font-size: 14px;
 }
 .form-chat:focus {
   outline: none;
@@ -1799,20 +1816,20 @@ i.chat-footer-icon {
 }
 .btn-chat {
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 50px;
-    font-size: 15px;
-    cursor: pointer;
-    color: #fff;
-    background-color: red;
-    border-radius: 70px;
-    transition: background-color 0.2s ease 0s;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(230, 230, 230);
-    padding: 0 15px;
-    margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: red;
+  border-radius: 70px;
+  transition: background-color 0.2s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+  padding: 0 15px;
+  margin-right: 15px;
 }
