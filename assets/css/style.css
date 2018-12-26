@@ -1932,10 +1932,19 @@ i.chat-footer-icon {
 .sort-item {
   position: relative;
 }
-.sort-svg {
-  position: absolute;
-  color: #4d4d4d;
-}
 .sort-item a i {
   color: #4d4d4d;
+  font-size: 22px;
+}
+.sort-item a i.la-active {
+  color: rgb(246, 16, 85);
+}
+.sort-item a i.la-active:after {
+  content: ".";
+  position: absolute;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  color: rgb(246, 16, 85);
+  left: 8px;
 }
