@@ -1872,3 +1872,29 @@ i.chat-footer-icon {
     font-size: 11px;
   }
 }
+
+/* store */
+.page-store {
+  position: relative;
+  top: 70px;
+}
+.store-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.store-title {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #4d4d4d;
+}
+.store-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.store-item {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
