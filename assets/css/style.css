@@ -1838,8 +1838,27 @@ i.chat-footer-icon {
   background: #f3cdcd;
   width: max-content;
   margin-left: auto;
+  border-radius: 10px 0 10px 10px;
 }
-
+.chat-mark .text {
+  color: #000;
+  margin-bottom: 5px;
+}
+.text.chat-time {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 14px;
+}
+.chat-mark-red {
+  color: red;
+}
+.chat-mark-red .la-check {
+  font-size: 18px;
+  font-weight: bold;
+}
+.chek-left {
+  margin-left: -16px;
+}
 
 @media (max-width: 375px) {
   .chat-special {
