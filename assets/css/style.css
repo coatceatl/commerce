@@ -1877,13 +1877,21 @@ i.chat-footer-icon {
   .form-chat {
     font-size: 11px;
   }
+  .store-block {
+    width: 90px;
+    height: 100px;
+  }
+  .store-link {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .store-block {
+    width: 110px;
+  }
 }
 
 /* store */
-.page-store {
-  position: relative;
-  top: 70px;
-}
 .store-inner {
   display: flex;
   flex-direction: column;
