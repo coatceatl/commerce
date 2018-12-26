@@ -1865,7 +1865,7 @@ i.chat-footer-icon {
 .chek-left {
   margin-left: -16px;
 }
-
+/*
 @media (max-width: 410px) {
   .store-block {
     width: 90px;
@@ -1874,7 +1874,7 @@ i.chat-footer-icon {
   .store-link {
     margin-right: 10px;
   }
-}
+}*/
 @media (max-width: 375px) {
   .chat-special {
     height: 30px;
@@ -1887,16 +1887,16 @@ i.chat-footer-icon {
     font-size: 11px;
   }
 }
-
-@media (max-width: 360px) {
+/*
+@media (max-width: 370px) {
   .store-block {
-    width: 100px;
-    height: 110px;
+    width: 80px;
+    height: 95px;
   }
   .store-link:last-child {
     margin-right: 0;
   }
-}
+}*/
 
 /* store */
 .store-inner {
@@ -1950,6 +1950,4 @@ i.chat-footer-icon {
   color: rgb(246, 16, 85);
   left: 8px;
 }
-.store-item {
-  margin: 15px;
-}
+
