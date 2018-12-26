@@ -1053,7 +1053,8 @@ main {
   padding: 0px 10px;
 }
 .no,
-.yes {
+.yes,
+.chat-special {
   position: relative;
   display: flex;
   justify-content: center;
@@ -1831,4 +1832,16 @@ i.chat-footer-icon {
   border-color: rgb(230, 230, 230);
   padding: 0 15px;
   width: max-content;
+}
+@media (max-width: 375px) {
+  .chat-special {
+    height: 30px;
+    padding: 0px 8px;
+  }
+  i.chat-footer-icon {
+    font-size:18px !important;
+  }
+  .form-chat {
+    font-size: 11px;
+  }
 }
