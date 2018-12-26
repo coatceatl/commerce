@@ -1950,4 +1950,9 @@ i.chat-footer-icon {
   color: rgb(246, 16, 85);
   left: 8px;
 }
-
+.store-item {
+  padding: 10px;
+}
+.store-link {
+  margin: 0;
+}
