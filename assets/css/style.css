@@ -1866,6 +1866,15 @@ i.chat-footer-icon {
   margin-left: -16px;
 }
 
+@media (max-width: 410px) {
+  .store-block {
+    width: 90px;
+    height: 100px;
+  }
+  .store-link {
+    margin-right: 10px;
+  }
+}
 @media (max-width: 375px) {
   .chat-special {
     height: 30px;
@@ -1877,17 +1886,15 @@ i.chat-footer-icon {
   .form-chat {
     font-size: 11px;
   }
-  .store-block {
-    width: 90px;
-    height: 100px;
-  }
-  .store-link {
-    margin-right: 10px;
-  }
 }
-@media (max-width: 350px) {
+
+@media (max-width: 360px) {
   .store-block {
-    width: 110px;
+    width: 100px;
+    height: 110px;
+  }
+  .store-link:last-child {
+    margin-right: 0;
   }
 }
 
@@ -1907,7 +1914,8 @@ i.chat-footer-icon {
 .store-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  overflow-y: hidden;
 }
 .store-item {
   margin-bottom: 15px;
