@@ -1918,6 +1918,7 @@ i.chat-footer-icon {
   color: #4d4d4d;
   margin-bottom: 20px;
   padding: 0 10px;
+  text-align: center;
 }
 .store-list {
   display: flex;
