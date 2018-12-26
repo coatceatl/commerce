@@ -1924,3 +1924,18 @@ i.chat-footer-icon {
 .store-link {
   box-shadow:5px 5px 19px rgba(0, 0, 0, 0.25);
 }
+.sort {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.sort-item {
+  position: relative;
+}
+.sort-svg {
+  position: absolute;
+  color: #4d4d4d;
+}
+.sort-item a i {
+  color: #4d4d4d;
+}
