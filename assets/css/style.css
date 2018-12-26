@@ -1833,6 +1833,14 @@ i.chat-footer-icon {
   padding: 0 15px;
   width: max-content;
 }
+.chat-mark {
+  margin-top: 20px;
+  background: #f3cdcd;
+  width: max-content;
+  margin-left: auto;
+}
+
+
 @media (max-width: 375px) {
   .chat-special {
     height: 30px;
