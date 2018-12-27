@@ -1986,6 +1986,9 @@ i.chat-footer-icon {
   .store-block {
     height: 150px;
   }
+  .service-title {
+    font-size: 20px;
+  }
 }
 @media (max-width: 425px) {
   .store-block {
@@ -2003,10 +2006,12 @@ i.chat-footer-icon {
   .form-chat {
     font-size: 11px;
   }
-  .service-title {
-    font-size: 12px;
-  }
   .store-block {
     height: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .service-title {
+    font-size: 12px;
   }
 }
