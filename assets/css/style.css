@@ -1987,6 +1987,25 @@ i.chat-footer-icon {
   padding: 50px;
   border: 2px solid red;
 }
+#map {
+  position: relative;
+}
+.infobar {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  background: #fff;
+  z-index: 9;
+  box-shadow: 0 3px 6px rgba(0,0,0,.12), 0 3px 12px rgba(0,0,0,.25);
+  padding: 20px;
+  width: 70%;
+  font-size: 12px;
+  overflow: hidden;
+  display: flex;
+}
+.infobar-avatar {
+  margin-right: 20px;
+}
 
 @media (min-width: 426px) {
   .store-block {
@@ -1994,6 +2013,9 @@ i.chat-footer-icon {
   }
   .service-title {
     font-size: 20px;
+  }
+  .infobar {
+    width: 300px;
   }
 }
 @media (max-width: 425px) {
