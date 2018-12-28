@@ -1982,6 +1982,12 @@ i.chat-footer-icon {
   padding-right: 0;
 }
 
+/* map */
+#map img {
+  padding: 50px;
+  border: 2px solid red;
+}
+
 @media (min-width: 426px) {
   .store-block {
     height: 150px;
