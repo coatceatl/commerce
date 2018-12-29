@@ -2001,7 +2001,7 @@ i.chat-footer-icon {
   width: 70%;
   font-size: 12px;
   overflow: hidden;
-  display: flex;
+  display: none;
 }
 .infobar-avatar {
   margin-right: 20px;

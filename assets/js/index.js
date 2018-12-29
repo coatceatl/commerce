@@ -1,13 +1,5 @@
-var map, pos, marker, circle, circleOptions, setCenter;
+var map, pos, marker, circle, circleOptions, setCenter, users;
 //var markers = [];
-
-/*map.markers = [
-  {title: 'Raanana Park Amphitheater', location: {lat: 32.188737, lng: 34.8527066}},
-  {title: 'Caesaria National Park', location: {lat: 32.5086606, lng: 34.9001683}},
-  {title: 'Irus Argaman Reserve', location: {lat: 32.283054, lng: 34.839627}},
-  {title: 'Carmel Mountain National Park', location: {lat: 32.7290981, lng:34.9992672}},
-  {title: 'Bahai Gardens', location: {lat: 32.8119338, lng: 34.9866286}}
-];*/
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -45,6 +37,16 @@ function initMap() {
       circle = new google.maps.Circle(circleOptions);
       circle.setMap(map);
 
+      users = [
+        {position: new google.maps.LatLng(32.283054, 34.839627) }
+      ]
+
+      users.forEach(function(user) {
+        var markers = new google.maps.Marker({
+          position: user.position,
+          map:map
+        });
+      })
     });
   }
 }
