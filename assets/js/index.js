@@ -38,15 +38,24 @@ function initMap() {
       circle.setMap(map);
 
       users = [
-        {position: new google.maps.LatLng(32.283054, 34.839627) }
+        ['User1',32.283054, 34.839627],
+        ['User2',32.278959, 34.847759]
+       // {position: new google.maps.LatLng(32.283054, 34.839627)},
+       // {position: new google.maps.LatLng(32.278959, 34.847759)}
       ]
 
-      users.forEach(function(user) {
+     // users.forEach(function(user) {
+      for (i=0; i<users.length; i++) {
+        var position = new google.maps.LatLng(users[i][1], users[i][2]);
+        var icon = "https://maps.google.com/mapfiles/ms/icons/blue-dot.png";
         var markers = new google.maps.Marker({
-          position: user.position,
-          map:map
+          position: position,
+          map:map,
+          icon: icon,
+          title: users[i][0],
         });
-      })
+        console.log(users[0].title);
+      }
     });
   }
 }
