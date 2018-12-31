@@ -1,4 +1,4 @@
-var map, pos, marker, circle, circleOptions, setCenter, users;
+var map, pos, marker, circle, circleOptions, setCenter, users, title;
 //var markers = [];
 
 function initMap() {
@@ -18,6 +18,7 @@ function initMap() {
       marker = new google.maps.Marker({
         position: pos,
         map: map,
+        //icon: currentIcon
       });
       marker.setPosition(pos);
       map.setCenter(pos);
@@ -39,22 +40,30 @@ function initMap() {
 
       users = [
         ['User1',32.283054, 34.839627],
-        ['User2',32.278959, 34.847759]
-       // {position: new google.maps.LatLng(32.283054, 34.839627)},
-       // {position: new google.maps.LatLng(32.278959, 34.847759)}
+        ['User2',32.278959, 34.847759],
+        ['User3',32.279023, 34.840034]
       ]
 
-     // users.forEach(function(user) {
       for (i=0; i<users.length; i++) {
-        var position = new google.maps.LatLng(users[i][1], users[i][2]);
+        var location = new google.maps.LatLng(users[i][1], users[i][2]);
         var icon = "https://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+
         var markers = new google.maps.Marker({
-          position: position,
+          position: location,
           map:map,
           icon: icon,
           title: users[i][0],
         });
-        console.log(users[0].title);
+
+        var infoWindow = new google.maps.InfoWindow({
+          content: '<div class="infobar-content"></div>',
+        });
+
+        markers.addListener('click', function() {
+          console.log( "ready!" );
+          $('.infobar').addClass("visible");
+        });
+//          infoWindow.open(map, markers[i]);
       }
     });
   }

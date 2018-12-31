@@ -2006,6 +2006,9 @@ i.chat-footer-icon {
 .infobar-avatar {
   margin-right: 20px;
 }
+.infobar.visible {
+  display: flex !important;
+}
 
 @media (min-width: 426px) {
   .store-block {
