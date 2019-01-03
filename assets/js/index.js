@@ -30,7 +30,7 @@ function initMap() {
         strokeOpacity: 0.8,
         strokeWeight: 2,
         clickable: false,
-        radius: radius*100
+        radius: radius*70
       }
 
       circle = new google.maps.Circle(circleOptions);
