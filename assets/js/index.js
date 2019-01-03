@@ -44,11 +44,11 @@ function initMap() {
         '<a href="#" class="map-link-avatar">' +
         '<img class="map-avatar" src="assets/img/avatar-3.jpg">' +
         '</a>' +
-        '<div class="map-avatar">' +
+        '<span class="map-avatar">' +
         '<a href="#" class="map-link-avatar">' +
         '+7' +
         '</a>' +
-        '</div>' +
+        '</span>' +
         '</div>'
 
       users = [

@@ -1994,7 +1994,6 @@ i.chat-footer-icon {
 }
 .avatar-block {
   width: 122px;
-  border: 1px solid #733232;
   border-radius: 25px;
   background-color: #fff;
   display: flex;
@@ -2004,16 +2003,38 @@ i.chat-footer-icon {
   width: 50px;
   height: 50px;
   border: 3px solid #fff;
+/*  position: absolute;
+  top: 0;
+  right: -15px;*/
 }
 .map-link-avatar:not(:first-child) {
   margin-left: -15px;
 }
-div.map-avatar {
+span.map-avatar {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: -15px;
   background-color: #92a6fc;
+}
+.gm-ui-hover-effect {
+  display: none !important;
+}
+.gm-style-iw,
+.gm-style-iw div {
+  overflow: visible !important;
+}
+.gm-style-iw:before {
+  content: "";
+  width: calc(100% - 29px);
+  height: calc(100% + 17px);
+  background: #fff;
+}
+.gm-style-iw div div {
+      margin-left: -15px;
+    margin-right: -37px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 @media (min-width: 426px) {
