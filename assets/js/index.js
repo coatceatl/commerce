@@ -98,9 +98,16 @@ function initMap() {
       ]
 
       for (var i=0; i<markers.length; i++) {
-        console.log('test');
         addMarker(markers[i]);
       }
+
+      google.maps.event.addListener(addMarker, 'domready', function() {
+          var visible = $('.avatar-block');
+          visible.click(function() {
+            console.log("click");
+            $(".infobar").addClass("visible");
+          });
+        });
 
       function addMarker(properties) {
         var markers = new google.maps.Marker({
@@ -116,6 +123,9 @@ function initMap() {
         google.maps.event.addListener(infoWindow, 'domready', function() {
           var elem = $('.gm-style-iw').siblings();
           elem.css("display", "none");
+          $('.map-link-avatar').click(function() {
+            $(".infobar").addClass("visible");
+          });
         });
 
         infoWindow.open(myMap, markers);
