@@ -1,5 +1,4 @@
 var map, pos, marker, circle, circleOptions, setCenter, users, title;
-//var markers = [];
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -18,7 +17,6 @@ function initMap() {
       marker = new google.maps.Marker({
         position: pos,
         map: map,
-        //icon: currentIcon
       });
       marker.setPosition(pos);
       map.setCenter(pos);
@@ -38,15 +36,34 @@ function initMap() {
       circle = new google.maps.Circle(circleOptions);
       circle.setMap(map);
 
+      var popupContent =
+        '<div class="avatar-block">' +
+        '<a href="#" class="map-link-avatar">' +
+        '<img class="map-avatar" src="assets/img/avatar-2.jpg">' +
+        '</a>' +
+        '<a href="#" class="map-link-avatar">' +
+        '<img class="map-avatar" src="assets/img/avatar-3.jpg">' +
+        '</a>' +
+        '<div class="map-avatar">' +
+        '<a href="#" class="map-link-avatar">' +
+        '+7' +
+        '</a>' +
+        '</div>' +
+        '</div>'
+
       users = [
-        ['User1',32.283054, 34.839627],
-        ['User2',32.278959, 34.847759],
-        ['User3',32.279023, 34.840034]
+        ['User1',32.280054, 34.839627],
+ //       ['User2',32.278959, 34.847759],
+   //     ['User3',32.272023, 34.840034]
       ]
 
       for (i=0; i<users.length; i++) {
         var location = new google.maps.LatLng(users[i][1], users[i][2]);
         var icon = "https://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+
+        var infoWindow = new google.maps.InfoWindow({
+          content: popupContent
+        });
 
         var markers = new google.maps.Marker({
           position: location,
@@ -55,15 +72,12 @@ function initMap() {
           title: users[i][0],
         });
 
-        var infoWindow = new google.maps.InfoWindow({
-          content: '<div class="infobar-content"></div>',
-        });
+        infoWindow.open(map, markers);
+
 
         markers.addListener('click', function() {
-          console.log( "ready!" );
-          $('.infobar').addClass("visible");
+          infoWindow.open(map, markers);
         });
-//          infoWindow.open(map, markers[i]);
       }
     });
   }
