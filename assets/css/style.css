@@ -1975,7 +1975,7 @@ i.chat-footer-icon {
 }
 .infobar {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   left: 15%;
   background: #fff;
   z-index: 9;
