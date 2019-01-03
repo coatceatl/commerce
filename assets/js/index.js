@@ -84,15 +84,15 @@ function initMap() {
       var icon = "assets/img/marker-blue.png";
       var markers = [
         {
-          coordinates: {lat: 32.280054, lng: 34.839627},
+          coordinates: {lat: 32.280054, lng: 34.838627},
           info: popupContent,
         },
         {
-          coordinates: {lat: 32.276059, lng: 34.845759},
+          coordinates: {lat: 32.273259, lng: 34.840759},
           info: popupContent1,
         },
         {
-          coordinates: {lat: 32.272023, lng: 34.840034},
+          coordinates: {lat: 32.271023, lng: 34.837034},
           info: popupContent2,
         }
       ]
