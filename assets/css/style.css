@@ -2032,7 +2032,7 @@ span.map-avatar {
 }
 .gm-style-iw {
   top: 75px !important;
-  left: -75px !important;
+  left: 85px !important;
 }
 
 @media (min-width: 426px) {
