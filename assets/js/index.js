@@ -76,12 +76,12 @@ function initMap() {
         '</a>' +
         '<span class="map-avatar">' +
         '<a href="#" class="map-link-avatar">' +
-        '12' +
+        '+12' +
         '</a>' +
         '</span>' +
         '</div>';
 
-      var icon = "https://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+      var icon = "assets/img/marker-blue.png";
       var markers = [
         {
           coordinates: {lat: 32.280054, lng: 34.839627},
@@ -121,4 +121,5 @@ function initMap() {
     });
   }
 }
+
 
