@@ -88,7 +88,7 @@ function initMap() {
           info: popupContent,
         },
         {
-          coordinates: {lat: 32.278959, lng: 34.847759},
+          coordinates: {lat: 32.276059, lng: 34.845759},
           info: popupContent1,
         },
         {
