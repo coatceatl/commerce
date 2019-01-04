@@ -18,9 +18,12 @@ function initMap() {
         lng: position.coords.longitude
       };
 
+      var currentMarker = "assets/img/map-marker-red.png";
+
       marker = new google.maps.Marker({
         position: myPosition,
         map: myMap,
+        icon: currentMarker
       });
       marker.setPosition(myPosition);
       myMap.setCenter(myPosition);
