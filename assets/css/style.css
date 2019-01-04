@@ -1965,11 +1965,6 @@ i.chat-footer-icon {
 }
 
 /* map */
-/*
-#map img {
-  padding: 50px;
-  border: 2px solid red;
-}*/
 #map {
   position: relative;
 }
@@ -2003,9 +1998,12 @@ i.chat-footer-icon {
   width: 50px;
   height: 50px;
   border: 3px solid #fff;
-/*  position: absolute;
-  top: 0;
-  right: -15px;*/
+}
+.border-green {
+  border: 3px solid #6ae29c;
+}
+.border-pink {
+  border: 3px solid #fc7ea4;
 }
 .map-link-avatar:not(:first-child) {
   margin-left: -15px;

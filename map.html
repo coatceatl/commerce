@@ -16,6 +16,22 @@
     </style>
   </head>
   <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="search-container">
+          <form class="search-form">
+            <svg class="header-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            <input
+              type="search"
+              name="search"
+              placeholder=""
+              class="search-input">
+          </form>
+        </div>
+        <a href="#" class="header-logo">Commerce</a>
+        <a href="#" class="header-mail"><i class="la la-envelope"></i></a>
+      </div>
+    </header>
     <div id="map"></div>
     <div class="infobar">
       <div class="infobar-avatar">
@@ -30,6 +46,49 @@
         </div>
       </div>
     </div>
+    <footer class="footer container">
+      <div class="footer-content">
+      <div>
+        <a href="#" class="footer-link active"><i class="la la-home"></i></a>
+      </div>
+      <div>
+        <a href="#" class="footer-link">
+          <span class="notif notif-footer">12</span>
+          <i class="la la-user"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="footer-link footer-plus">
+            <div class="circle">
+              <svg class="tirs" width="100%" viewbox="0 0 30 42">
+              <pattern id="pattern"
+              width="120%" height="150%">
+              <image xlink:href="assets/img/img6.jpg" width="55" height="55"/>
+              </pattern>
+              <path fill="url(#pattern)" stroke="#57595c" stroke-width="1.5"
+                d="M15 3
+                Q16.5 6.8 25 18
+                A12.8 12.8 0 1 1 5 18
+                Q13.5 6.8 15 3z"
+              />
+              </svg>
+            </div>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="footer-link">
+          <span class="notif notif-footer">4</span>
+          <i class="la la-bell"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="footer-link">
+          <span class="notif notif-footer">1</span>
+          <i class="la la-navicon"></i>
+        </a>
+      </div>
+      </div>
+    </footer>
     <script src="assets/vendors/js/base/jquery.min.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABOp95Zm0SW-woOKVdvVIuwrTO2cmvg-s&callback=initMap">

@@ -4,6 +4,10 @@ function initMap() {
   myMap = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
     center: {lat: 32.0992549, lng: 34.8132114},
+    mapTypeControl: false,
+    fullscreenControl: false,
+    streetViewControl: false,
+    zoomControl: false
   });
 
 
@@ -44,7 +48,7 @@ function initMap() {
         '<a href="#" class="map-link-avatar">' +
         '<img class="map-avatar" src="assets/img/avatar-3.jpg">' +
         '</a>' +
-        '<span class="map-avatar">' +
+        '<span class="map-avatar border-green">' +
         '<a href="#" class="map-link-avatar">' +
         '+7' +
         '</a>' +
@@ -54,7 +58,7 @@ function initMap() {
      var popupContent1 =
         '<div class="avatar-block">' +
         '<a href="#" class="map-link-avatar">' +
-        '<img class="map-avatar" src="assets/img/avatar-4.jpg">' +
+        '<img class="map-avatar" src="assets/img/img3.jpg">' +
         '</a>' +
         '<a href="#" class="map-link-avatar">' +
         '<img class="map-avatar" src="assets/img/avatar-5.jpg">' +
