@@ -2033,6 +2033,12 @@ span.map-avatar {
   top: 75px !important;
   left: 85px !important;
 }
+.map-product {
+  margin: 0!important;
+}
+.bg-pink {
+  background-color: #fc7ea4 !important;
+}
 
 @media (min-width: 426px) {
   .store-block {

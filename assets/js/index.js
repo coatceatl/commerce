@@ -58,12 +58,12 @@ function initMap() {
      var popupContent1 =
         '<div class="avatar-block">' +
         '<a href="#" class="map-link-avatar">' +
-        '<img class="map-avatar" src="assets/img/img3.jpg">' +
+        '<span class="map-avatar map-product bg-pink">' + '<i class="la la-futbol-o">' + '</i>' + '</span>' +
         '</a>' +
         '<a href="#" class="map-link-avatar">' +
-        '<img class="map-avatar" src="assets/img/avatar-5.jpg">' +
+        '<span class="map-avatar map-product bg-pink">' + '<i class="la la-camera">' + '</i>' + '</span>' +
         '</a>' +
-        '<span class="map-avatar">' +
+        '<span class="map-avatar bg-pink">' +
         '<a href="#" class="map-link-avatar">' +
         '+3' +
         '</a>' +
@@ -85,19 +85,24 @@ function initMap() {
         '</span>' +
         '</div>';
 
-      var icon = "assets/img/marker-blue.png";
+      //var icon = "assets/img/marker-blue.png";
+      var markerBlue = "assets/img/marker-blue.png";
+      var markerPink = "assets/img/marker-pink.png";
       var markers = [
         {
           coordinates: {lat: 32.278054, lng: 34.838627},
           info: popupContent,
+          icon: markerBlue,
         },
         {
           coordinates: {lat: 32.273259, lng: 34.840759},
           info: popupContent1,
+          icon: markerPink,
         },
         {
           coordinates: {lat: 32.271023, lng: 34.837034},
           info: popupContent2,
+          icon: markerBlue,
         }
       ]
 
@@ -116,7 +121,7 @@ function initMap() {
         var markers = new google.maps.Marker({
           position: properties.coordinates,
           map: myMap,
-          icon: icon,
+          icon: properties.icon,
         });
 
         var infoWindow = new google.maps.InfoWindow({
