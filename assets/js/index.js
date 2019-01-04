@@ -106,9 +106,8 @@ function initMap() {
       }
 
       google.maps.event.addListener(addMarker, 'domready', function() {
-          var visible = $('.avatar-block');
+          var visible = $('.map-link-avatar');
           visible.click(function() {
-            console.log("click");
             $(".infobar").addClass("visible");
           });
         });
@@ -127,8 +126,9 @@ function initMap() {
         google.maps.event.addListener(infoWindow, 'domready', function() {
           var elem = $('.gm-style-iw').siblings();
           elem.css("display", "none");
+
           $('.map-link-avatar').click(function() {
-            $(".infobar").addClass("visible");
+            $(".infobar").toggleClass("visible");
           });
         });
 
