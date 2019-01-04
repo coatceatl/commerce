@@ -86,8 +86,8 @@ function initMap() {
         '</div>';
 
       //var icon = "assets/img/marker-blue.png";
-      var markerBlue = "assets/img/marker-blue.png";
-      var markerPink = "assets/img/marker-pink.png";
+      var markerBlue = "assets/img/map-marker-blue1.png";
+      var markerPink = "assets/img/map-marker-pink.png";
       var markers = [
         {
           coordinates: {lat: 32.278054, lng: 34.838627},
