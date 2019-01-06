@@ -137,7 +137,7 @@ function initMap() {
           elem.css("display", "none");
 
           $('.map-link-avatar').click(function() {
-            $(".infobar").toggleClass("visible");
+            $(".swiper-container").toggleClass("visible");
           });
         });
 
@@ -153,3 +153,12 @@ function initMap() {
 }
 
 
+$(document).ready(function () {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+     slidesPerView: 3,
+    //  centeredSlides: true,
+      spaceBetween: 10,
+      loop: true,
+    });
+});

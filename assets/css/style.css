@@ -1969,18 +1969,19 @@ i.chat-footer-icon {
   position: relative;
   margin-top: -15%;
 }
+.swiper-container {
+  display: none;
+}
 .infobar {
-  position: absolute;
-  bottom: 16%;
-  left: 15%;
   background: #fff;
   z-index: 9;
   box-shadow: 0 3px 6px rgba(0,0,0,.12), 0 3px 12px rgba(0,0,0,.25);
   padding: 15px;
-  width: 70%;
+  width: 85%;
   font-size: 12px;
   overflow: hidden;
-  display: none;
+  display: flex;
+  margin-left: 10px;
 }
 .infobar-avatar {
   margin-right: 15px;
@@ -2013,7 +2014,7 @@ i.chat-footer-icon {
 .text-heading {
   font-size: 13px;
 }
-.infobar.visible {
+.swiper-container.visible {
   display: flex !important;
 }
 .avatar-block {
@@ -2071,10 +2072,29 @@ span.map-avatar {
   background-color: #6ae29c !important;
 }
 .stars img {
-  margin-right: -2px;
+  margin-right: -3px;
   margin-bottom: 2px;
 }
 
+/* slider */
+.swiper-container {
+  position: absolute;
+  top: 64%;
+  width: 100%;
+  height: auto;
+}
+.swiper-wrapper {
+  width: inherit;
+}
+.swiper-slide {
+  width: 85% !important;
+  height: max-content;
+  display: flex;
+}
+.swiper-pagination-bullets {
+  position: absolute;
+  top: 36%;
+}
 @media (min-width: 426px) {
   .store-block {
     height: 150px;
