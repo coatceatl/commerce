@@ -1976,14 +1976,42 @@ i.chat-footer-icon {
   background: #fff;
   z-index: 9;
   box-shadow: 0 3px 6px rgba(0,0,0,.12), 0 3px 12px rgba(0,0,0,.25);
-  padding: 20px;
+  padding: 15px;
   width: 70%;
   font-size: 12px;
   overflow: hidden;
   display: none;
 }
 .infobar-avatar {
-  margin-right: 20px;
+  margin-right: 15px;
+}
+.infobar-header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.infobar-title {
+  margin-bottom: 0;
+}
+.infobar-text {
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  line-height: 17px;
+}
+.body-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.body-marker {
+  display: flex;
+  align-items: center;
+}
+.body-marker span {
+  margin-left: 5px;
+}
+.text-heading {
+  font-size: 13px;
 }
 .infobar.visible {
   display: flex !important;
@@ -2038,6 +2066,13 @@ span.map-avatar {
 }
 .bg-pink {
   background-color: #fc7ea4 !important;
+}
+.bg-green {
+  background-color: #6ae29c !important;
+}
+.stars img {
+  margin-right: -2px;
+  margin-bottom: 2px;
 }
 
 @media (min-width: 426px) {

@@ -61,12 +61,12 @@ function initMap() {
      var popupContent1 =
         '<div class="avatar-block">' +
         '<a href="#" class="map-link-avatar">' +
-        '<span class="map-avatar map-product bg-pink">' + '<i class="la la-futbol-o">' + '</i>' + '</span>' +
+        '<span class="map-avatar map-product bg-green">' + '<i class="la la-futbol-o">' + '</i>' + '</span>' +
         '</a>' +
         '<a href="#" class="map-link-avatar">' +
-        '<span class="map-avatar map-product bg-pink">' + '<i class="la la-camera">' + '</i>' + '</span>' +
+        '<span class="map-avatar map-product bg-green">' + '<i class="la la-camera">' + '</i>' + '</span>' +
         '</a>' +
-        '<span class="map-avatar bg-pink">' +
+        '<span class="map-avatar bg-green">' +
         '<a href="#" class="map-link-avatar">' +
         '+3' +
         '</a>' +
@@ -91,6 +91,7 @@ function initMap() {
       //var icon = "assets/img/marker-blue.png";
       var markerBlue = "assets/img/map-marker-blue1.png";
       var markerPink = "assets/img/map-marker-pink.png";
+      var markerGreen = "assets/img/pin-green.png";
       var markers = [
         {
           coordinates: {lat: 32.278054, lng: 34.838627},
@@ -100,7 +101,7 @@ function initMap() {
         {
           coordinates: {lat: 32.273259, lng: 34.840759},
           info: popupContent1,
-          icon: markerPink,
+          icon: markerGreen,
         },
         {
           coordinates: {lat: 32.271023, lng: 34.837034},
