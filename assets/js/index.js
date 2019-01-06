@@ -135,10 +135,11 @@ function initMap() {
         google.maps.event.addListener(infoWindow, 'domready', function() {
           var elem = $('.gm-style-iw').siblings();
           elem.css("display", "none");
+          $(".swiper-container").toggleClass("visible");
 
-          $('.map-link-avatar').click(function() {
-            $(".swiper-container").toggleClass("visible");
-          });
+        //  $('.map-link-avatar').click(function() {
+        //    $(".swiper-container").toggleClass("visible");
+        //  });
         });
 
         infoWindow.open(myMap, markers);
@@ -154,11 +155,9 @@ function initMap() {
 
 
 $(document).ready(function () {
-    //initialize swiper when document ready
-    var mySwiper = new Swiper ('.swiper-container', {
-     slidesPerView: 3,
-    //  centeredSlides: true,
-      spaceBetween: 10,
-      loop: true,
-    });
+  var mySwiper = new Swiper ('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    loop: true,
+  });
 });

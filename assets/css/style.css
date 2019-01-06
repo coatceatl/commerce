@@ -1972,6 +1972,9 @@ i.chat-footer-icon {
 .swiper-container {
   display: none;
 }
+.swiper-container.visible {
+  display: flex !important;
+}
 .infobar {
   background: #fff;
   z-index: 9;
@@ -2013,9 +2016,6 @@ i.chat-footer-icon {
 }
 .text-heading {
   font-size: 13px;
-}
-.swiper-container.visible {
-  display: flex !important;
 }
 .avatar-block {
   width: 122px;
