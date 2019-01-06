@@ -2079,7 +2079,7 @@ span.map-avatar {
 /* slider */
 .swiper-container {
   position: absolute;
-  top: 64%;
+  top: 65%;
   width: 100%;
   height: auto;
 }
@@ -2129,5 +2129,10 @@ span.map-avatar {
 @media (max-width: 320px) {
   .service-title {
     font-size: 12px;
+  }
+}
+@media (min-height: 640px) {
+  .swiper-container {
+    top: 71%;
   }
 }
