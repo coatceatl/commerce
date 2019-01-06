@@ -2077,6 +2077,10 @@ span.map-avatar {
 }
 
 /* slider */
+.swiper-size {
+  max-width: 636px;
+  margin: 0 auto;
+}
 .swiper-container {
   position: absolute;
   top: 65%;
@@ -2104,6 +2108,16 @@ span.map-avatar {
   }
   .infobar {
     width: 300px;
+  }
+}
+@media (max-width: 555px) {
+  .swiper-slide {
+    width: 65% !important;
+  }
+}
+@media (max-width: 475px) {
+  .swiper-slide {
+    width: 75% !important;
   }
 }
 @media (max-width: 425px) {
