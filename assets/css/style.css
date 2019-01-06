@@ -2136,3 +2136,8 @@ span.map-avatar {
     top: 71%;
   }
 }
+@media (max-height: 640px) {
+  #map {
+    margin-top: -15px !important;
+  }
+}
