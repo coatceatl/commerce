@@ -2152,6 +2152,6 @@ span.map-avatar {
 }
 @media (max-height: 670px) {
   #map {
-    margin-top: -15px !important;
+    margin-top: -50px !important;
   }
 }
