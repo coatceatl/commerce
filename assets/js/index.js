@@ -136,10 +136,6 @@ function initMap() {
           var elem = $('.gm-style-iw').siblings();
           elem.css("display", "none");
           $(".swiper-container").toggleClass("visible");
-
-        //  $('.map-link-avatar').click(function() {
-        //    $(".swiper-container").toggleClass("visible");
-        //  });
         });
 
         infoWindow.open(myMap, markers);

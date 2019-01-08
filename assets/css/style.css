@@ -2083,7 +2083,7 @@ span.map-avatar {
 }
 .swiper-container {
   position: absolute;
-  top: 65%;
+  top: 60%;
   width: 100%;
   height: auto;
 }
@@ -2147,7 +2147,7 @@ span.map-avatar {
 }
 @media (min-height: 640px) {
   .swiper-container {
-    top: 71%;
+    top: 68%;
   }
 }
 @media (max-height: 670px) {
