@@ -2099,6 +2099,21 @@ span.map-avatar {
   position: absolute;
   top: 36%;
 }
+
+
+/* video */
+.video-wrapper {
+  position: absolute;
+  top: 70px;
+  padding: 0;
+  bottom: 85px;
+}
+video {
+  height: 100%;
+  width: 100%;
+}
+
+/* media queries*/
 @media (min-width: 426px) {
   .store-block {
     height: 150px;
