@@ -2102,16 +2102,29 @@ span.map-avatar {
 
 
 /* video */
+.main-wrapper {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
 .video-wrapper {
-  position: absolute;
-  top: 70px;
   padding: 0;
-  bottom: 85px;
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  paddinf-bottom: 85px;
 }
 video {
   height: 100%;
-  width: 100%;
 }
+*/
 
 /* media queries*/
 @media (min-width: 426px) {
