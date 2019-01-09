@@ -2196,6 +2196,52 @@ span.map-avatar {
   max-width: 736px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 85px;
+}
+.activity-list {
+  padding: 0 10px;
+}
+.activity-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.activity-name,
+.activity-avatar {
+  display: flex;
+  align-items: center;
+}
+.activity-avatar {
+  margin-right: 10px;
+}
+.activity-title,
+.activity-amount {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.activity-desc,
+.activity-date {
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.activity-data {
+  text-align: right;
+}
+.activity-avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.activity-plus {
+  color: #40c9a2;
+}
+i.la.activity-plus {
+  font-size: small;
 }
 
 /* media queries*/
